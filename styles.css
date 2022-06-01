@@ -1,31 +1,70 @@
-.mat-card {
-    border-radius: 32px;
-    margin: 10px 10px;
-    padding: 20px;
-    border-color: #0a66c2;
+.mat-card{
+    margin: 20px 10px;
+    padding: 10px;
+  
+   border-radius: 32px;
+   border: 2px solid rgb(30, 92, 163);   
 }
-.mat-card#first-card {
+.mat-card#first-card{
     padding: 0;
 }
+div#profile-background{
+  display: flex;
+}
+div#profile-background img{
  
-div#profile-background {
-    display: flex;
-    z-index: 1;
-}
-div#profile-background img {
-    width: 100%;
-    border-radius: 32px 32px 0 0;
-}
+  width: 100%;
+ 
 
-.profile-image {
+  
+  
+  border-radius: 32px 32px 0 0;  
+}
+.profile-image{
     border-radius: 50%;
     width: 152px;
     height: 152px;
     margin-top: -110px;
     z-index: 1;
+    
 }
-div#info-actions {
-    display: flex;
+
+#logo-conicet{
+  width: 60px;
+  height: 40px;
+  margin: .5rem;
+  
+}
+#logo-uba{
+  width: 60px;
+  height: 40px;
+  margin: .5rem;
+  
 }
 
 
+#info-actions button{
+  color:rgb(17, 17, 17);
+  background-color: rgb(77, 91, 167);
+  border: 1px solid black;
+
+  
+}
+
+.container-fluid li {
+  margin: 5px;
+
+  
+}
+
+
+#info-details  {
+  text-align: right;
+  position: relative;
+  bottom: 150px;
+  list-style-type: none;
+}
+.btn{
+ color: black;
+  border: 1px solid; color: rgb(237, 241, 245);
+}
