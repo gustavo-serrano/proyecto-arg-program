@@ -3,10 +3,12 @@
     padding: 10px;
   
    border-radius: 32px;
-   border: 2px solid rgb(30, 92, 163);   
+   border: 2px solid rgb(30, 92, 163);
+   max-height: 1070px;
 }
 .mat-card#first-card{
     padding: 0;
+  
 }
 div#profile-background{
   display: flex;
@@ -30,23 +32,36 @@ div#profile-background img{
 }
 
 #logo-conicet{
-  width: 60px;
-  height: 40px;
+  width: 80px;
+  height: auto;
   margin: .5rem;
+  position: relative;
+  left: 100px;
+  
+  
+
   
 }
 #logo-uba{
-  width: 60px;
-  height: 40px;
+  width: 80px;
+  height: 60px;
   margin: .5rem;
+  text-align: center;
+  position: relative;
+  left: 100px;
+  
+ 
+  
   
 }
+
 
 
 #info-actions button{
   color:rgb(17, 17, 17);
-  background-color: rgb(77, 91, 167);
+  background-color: rgb(87, 100, 170);
   border: 1px solid black;
+  position: relative; bottom: 30px;
 
   
 }
@@ -58,13 +73,95 @@ div#profile-background img{
 }
 
 
-#info-details  {
-  text-align: right;
+#info-details{
+  
   position: relative;
-  bottom: 150px;
+  
+  left: 1095px;
+  bottom: 235px;
+  
   list-style-type: none;
+  max-width: 180px;
+  
+  
+  
 }
+
 .btn{
  color: black;
   border: 1px solid; color: rgb(237, 241, 245);
+}
+#logo-netacom {
+  width: 140px;
+  height: 90px;
+
+ 
+  margin-right: 10px;
+  
+  float: left;
+ 
+}
+#logo-libercom {
+  width: 140px;
+  height: 85px;
+
+ 
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+
+ 
+}
+#logo-servicio {
+  width: 140px;
+  float: left;
+  height: 150px;
+  margin-right: 10px;
+  
+  position: relative;
+  bottom: 34px;
+}
+.mat-card#third-card{
+ 
+ 
+  max-height: 420px;
+
+}
+#logo-it{
+  width: 140px;
+  float: left;
+  height: 120px;
+  margin-right: 10px;
+  position: relative;
+  bottom: 13px;
+
+}
+#logo-sql{
+  width: 140px;
+  float: left;
+  height: 80px;
+  margin-right: 10px;
+
+
+}
+#logo-utn{
+  width: 140px;
+  float: left;
+  height: 100px;
+  margin-right: 10px;
+
+}
+.progress{
+  height: 25px;
+}
+#logo-arg-programa-2{
+  width: 160px;
+  float: left;
+  height: 75px;
+  margin-right: 0px;
+  position: relative;
+  top: 22px;
+
+
+
 }
