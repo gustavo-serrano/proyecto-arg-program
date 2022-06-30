@@ -162,6 +162,7 @@ div#profile-background img{
   position: relative;
   top: 22px;
 
-
-
+}
+#info-data{
+  max-width: 1000px;
 }
